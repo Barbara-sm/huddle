@@ -1,0 +1,66 @@
+@media (max-width:550px) {
+    body {
+        background-image: url(bg-desktop.svg) ;
+        background-repeat: no-repeat;
+        background-color: rgb(107, 43, 226);
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .logo {
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    div > img {
+        width: 450px;
+        height: 450px;
+        align-items: center;
+        margin-left: -35px;
+    }
+
+    h1 {
+        margin-top: 80px;
+        font-size: 30px;
+        margin-left: -15px;
+    }
+   
+    .description > p {
+        font-size: 18px;
+        margin-left: -19px;
+    }
+
+    .description > button {
+        margin-bottom: 0px;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+    }
+
+    .description > button:hover {
+        background-color:#f781f7;
+        color: #ffffff;
+     }
+     
+     .social > img  {
+         width: 30px;
+         float: right;
+         padding-left: 40px;
+         margin-top: -180px;
+     }
+     
+     .footer > p {
+        margin-top: 150px;
+        text-align: center;
+     }
+
+     * {
+        margin: 0px;
+     }
+}
